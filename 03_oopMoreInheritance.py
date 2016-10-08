@@ -7,6 +7,8 @@ Vehicule
 |.....|__Bike
 |__Airplane
 |__Boat
+
+Total Classes lines: 67 lines
 '''
 
 class Vehicule:
