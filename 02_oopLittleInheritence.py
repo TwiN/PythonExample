@@ -2,6 +2,8 @@
 Lets add a little bit of inheritence
 The parent class is Vehicule because every class below is a vehicule
 The child classes are: Airplane, Car, Truck, Bike, Boat
+
+Total Classes lines: 75 lines
 '''
 
 class Vehicule:
