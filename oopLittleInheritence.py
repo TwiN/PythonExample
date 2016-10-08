@@ -54,6 +54,8 @@ class Truck(Vehicule):
     def drive(self):
         print "I am a "+str(self.model)+" and I am driven"
 
+    def dumpCargo(self):
+        print "This is an special action that only trucks can do"
 
 
 class Bike(Vehicule):
@@ -66,6 +68,9 @@ class Bike(Vehicule):
        
     def drive(self):
         print "I am a "+str(self.model)+" and I am driven"
+        
+    def doAWheelie(self): 
+        print "Bikes can do wheelies"
 
 
 
@@ -111,3 +116,6 @@ car01.drive()
 truck01.drive()
 bike01.drive()
 boat01.sail()
+car01.drift()
+truck01.dumpCargo()
+bike01.doAWheelie()
