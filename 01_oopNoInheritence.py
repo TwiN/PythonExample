@@ -1,6 +1,8 @@
 '''
 Lets start with the basic: OOP with no inheritence at all.
 The classes are: Airplane, Car, Truck, Bike, Boat
+
+Total Classes lines: 107 lines
 '''
 
 class Airplane:
