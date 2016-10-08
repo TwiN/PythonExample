@@ -23,7 +23,7 @@ class Airplane(Vehicule):
          Vehicule.__init__(self, model, topSpeed)
 
     def fly(self):
-        print "I am an airplane and I am flown"
+        print "I am a "+str(self.model)+" and I am flown"
 
 
 
@@ -36,7 +36,10 @@ class Car(Vehicule):
         print str(self.model)+" has "+str(self.numberOfWheels)+" wheels."
       
     def drive(self):
-        print "I am a car and I am driven"
+        print "I am a "+str(self.model)+" and I am driven"
+        
+    def drift(self): # couldn't find a better unique action
+        print "This is an special action that only the car can do"
 
 
 
@@ -49,7 +52,7 @@ class Truck(Vehicule):
         print str(self.model)+" has "+str(self.numberOfWheels)+" wheels."
        
     def drive(self):
-        print "I am a truck and I am driven"
+        print "I am a "+str(self.model)+" and I am driven"
 
 
 
@@ -62,7 +65,7 @@ class Bike(Vehicule):
         print str(self.model)+" has "+str(self.numberOfWheels)+" wheels."
        
     def drive(self):
-        print "I am a bike and I am driven"
+        print "I am a "+str(self.model)+" and I am driven"
 
 
 
@@ -71,7 +74,7 @@ class Boat(Vehicule):
         Vehicule.__init__(self, model, topSpeed)
     
     def sail(self):
-        print "I am a boat and I am sailed"
+        print "I am a "+str(self.model)+" and I am sailed"
 
 
 
